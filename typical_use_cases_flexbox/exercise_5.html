@@ -5,20 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .card {
-  display: flex;
-  flex-direction: column;
-  border: 2px solid rgb(96, 139, 168);
-  margin: 1rem auto;
-}
+      .cards {
+        display: flex;
+        margin: 0 auto;
+        width: 35rem;
+        gap: 13px;
+      }
 
-.card .content {
-  flex: 1 1 auto;
-}
-.card footer {
-    background-color: rgba(96, 139, 168, 0.2);
-    padding: 10px;
-}
+      .card {
+        display: flex;
+        flex-direction: column;
+        border: 2px solid rgb(96, 139, 168);
+        margin: 1rem auto;
+        flex: 1;
+        border-radius: 0.5rem;
+      }
+
+      .card .content {
+        flex: 1 1 auto;
+        padding: 0.5rem;
+      }
+      .card footer {
+        background-color: rgba(96, 139, 168, 0.2);
+        padding: 10px;
+      }
 
     </style>
 </head>
