@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+            color: #333;
+            background: #a1c3ff;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        h1, h2 {
+            margin-bottom: 15px;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 30px;
+        }
+
+        .navbar {
+            background: #3474e6;
+            color: #fff;
+            height: 60px;
+        }
+
+        .navbar .logo {
+            font-size: x-large;
+            font-weight: bold;
+        }
+
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .navbar .container {
+            display: flex;
+        }
+
+    </style>
+</head>
+<body>
+    <nav clas="navbar">
+        <div class="container">
+            <div class="logo">Flexbox</div>
+            <ul class="nav">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="header">
+        <div class="container">
+            <div>
+                <h1>Flexbox Crash Course</h1>
+                <p>
+                    This crash course was created by Brad Traversy to help you learn the basics of flexbox. Flexbox is a very important and useful tool in CSS.
+                </p>
+            </div>
+            <img src="https://cdn.iconscout.com/icon/free/png-256/free-grid-application-menu-artboard-layer-7-16383.png?f=webp" alt="">
+        </div>
+    </header>
+
+    <section class="boxes">
+        <div class="container">
+            <div class="box">
+                <h2><i class="fas fa-arrows-alt-v"></i>Alignment & Space</h2>
+                <p>
+                    A more efficient way to lay out, align and distribute space among items in a container 
+                </p>
+            </div>
+            <div class="box">
+                <h2><i class="fas fa-arrows-alt-v"></i>Tricky Positioning</h2>
+                <p>
+                    Flexbox usually solves tricky problems including how to position or dinamically resize elements on a page
+                </p>
+            </div>
+            <div class="box">
+                <h2><i class="fas fa-arrows-alt-v"></i>Responsive Design</h2>
+                <p>
+                    Flexbox makes building a website layout (and making it responsive!) much, much easier
+                </p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
